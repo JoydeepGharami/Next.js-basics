@@ -1,10 +1,10 @@
 
+
 const ExampleServer = () => {
-    console.log('I m Server Component')
+    console.log('I m Server component')
   return (
     <div>
       <p>This is Server Component</p>
-      <ExampleServer/>
     </div>
   )
 }

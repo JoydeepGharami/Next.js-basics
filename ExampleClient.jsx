@@ -1,15 +1,14 @@
-import React from 'react'
-import ExampleServer from './ExampleServer'
+'use client'
+import ExampleServer from "./ExampleServer"  
 
 const ExampleClient = () => {
-    console.log('I m Client component')
+  console.log('I am Client component');
   return (
     <div>
-        <p>This is Client component</p>
-      
+      <p>This is client Component</p>
+      <ExampleServer />   
     </div>
-  )
+  );
 }
 
-export default ExampleClient
-
+export default ExampleClient;
