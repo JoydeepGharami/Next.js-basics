@@ -1,18 +1,24 @@
-export const users = [{
-    "id":1,
-    "username":"joydeep"
-},
-{
-    "id":2,
-    "username":"joy"
-},
-{
+export const users = [
+    {
+    
+        id:1,
+        name:"John"
+    },
+    {
+    
+        id:2,
+        name:"Jimmy"
+    },
+    {
+    
+        id:3,
+        name:"Jack"
+    },
+    {
+    
+        id:4,
+        name:"Jonas"
+    },
 
-    "id":3,
-    "username":"john"
-},
-{
-    "id":4,
-    "username":"roman"
-}
+    
 ]

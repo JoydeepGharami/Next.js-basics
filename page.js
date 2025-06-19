@@ -1,20 +1,9 @@
-import getAllUsers from "@/lib/getAllUsers";
-import getUser from "@/lib/getUser";
+import React from 'react'
 
-export default async function User({ params }) {
-  const user = await getUser(params.userid);
-  console.log(user);
-
+export default function page() {
   return (
     <div>
-      <h1>{user.name}</h1>
+      Home
     </div>
-  );
-}
-export async function generateStaticParams(){
-  const usersData= getAllUsers();
-  const users = await usersData;
-  return users.map(user => (
-    {userId : user.id.toString()}
-  ))
+  )
 }
